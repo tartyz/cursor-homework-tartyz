@@ -10,29 +10,42 @@
 
 <h1>GIT HOMEWORK:</h1>
 
-<h2>1. cheat list</h2>
+<h2>1. Сheat list</h2>
 
 <body>
     <ul>
-        <li>git config --global user.name blabla</li>
-        <li>git config --global user.email blabal@bla</li>
-        <li>git init</li>
-        <li>git status</li>
-        <li>git add</li>
-        <li>git commit</li>
-        <li>git log </li>
-        <li>git checkout</li>
-        <li>git branch</li>
-        <li>git push</li>
-        <li>git pull</li>
-        <li>git merge</li>
-        <li>git clone</li>
+        <li>git config --global user.name blabla - встановдлює глобальне імя/обліковий запис</li>
+        <li>git config --global user.email blabal@bla - - встановдлює e-mail</li>
+        <li>git init - ініціалізує Git-репозиторій</li>
+        <li>git status - перевірка стану</li>
+        <li>git add . - надати всім файлам індекс </li>
+        <li>git commit - надати зміни в локалному репозиторії</li>
+        <li>git log - показує історію комітів</li>
+        <li>git checkout - перевыряэ гілку</li>
+        <li>git branch -показує лише локальні гілки</li>
+        <li>git push - перекладає зміни з локального у віддалений репозиторій </li>
+        <li>git pull - оновлю дані (забрати зміни) з віддаленого репозиторію по поточній гілці</li>
+        <li>git merge branch_name - обєднує дані/вносить зміни з вказаної гілки в локальну </li>
+        <li>git clone repository_address- Клонувати репозиторій, що існує</li>
     </ul>
     <p> </p>
-    <h2>What is the GITIGNORE FILE</h2>
+    <h2>2. What is the GITIGNORE FILE</h2>
     <p>Файл Git Ignore визначає, які файли та папки не слід ігнорувати у даному вихідному коді. Його можна використовувати на основі кожного шляху, щоб правила застосовувались лише до певних папок, але ви також можете створити глобальний файл GITIGNORE,
         який застосовується до кожного сховища Git, яке у вас є. Ви можете знайти десятки прикладів файлів GITIGNORE, які рекомендуються в різних сценаріях, на сторінці шаблонів .gitignore GitHub.</p>
+    <p> </p>
+    <h2>3. Advanced part</h2>
 
-</body>
+    <body>
+        <ul>
+
+            <li> git revert - ця команда створює нову фіксацію, яка скасовує зміни від попереднього виконання, додає нову історію до проекту (вона не змінює існуючу історію). </li>
+            <li> git rebase - перебазування змін з однієї гілки до іншої, команда подібна до merge використовується скоріше для внесення локальних змін </li>
+            <li> git cherry-pick - застосовує зміни введені в уже існуючих комітах </li>
+            <li> git stash - зберігає поточний стан в у тимчасовому місці (схованці, stash) і відновлює попередній стан, каталог стає точно таким, яким був до початку редагування. </li>
+
+        </ul>
+        <p> </p>
+
+    </body>
 
 </html>
